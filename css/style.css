@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: Poppins;
+    color: white;
+}
+
+@font-face{
+    font-family: Poppins;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    color: white;
+}
+
+.opac{
+    background-color: rgba(0, 47, 178, 0.2);
+    padding-top: 70px;
+}
+
+.logo span{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
+
+.container-banner{
+    margin: 0 15%;
+}
+
+.container-banner h1{
+    padding: 70px 20px;
+    font-size: 64px;
+}
+
+.container-banner input[type=button]{
+    color: #1f272a;
+    border-radius: 2px;
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 70px;
+}
+
+.container{
+    padding: 2% 5%;
+    width: 100%;
+}
+
+.container h2{
+    font-size: 50px;
+    padding-left: 10px;
+    color: #1f292b;
+}
+
+.secao-container h2{
+    color: white;
+}
+
+.container p{
+    padding-left: 10px;
+}
+
+.secao-container{
+    display: flex;
+}
+
+.nature{
+    background-image: url(../img/leaf-318743_1280.jpg);
+    background-size: cover;
+}
+
+.daily{
+    background-image: url(../img/corporate-863694_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.together{
+    background-image: url(../img/father-2770301_1920.jpg);
+    background-size: cover; 
+    background-position: center;   
+}
+
+.together h2{
+    color: white;
+}
+
+.analysis{
+    background-image: url(../img/ferrari-california-3170346_1280.jpg);
+    background-size: cover; 
+}
+
+.picture{
+    background-image: url(../img/sun-3726030_1280.jpg);
+    background-size: cover; 
+}
+
+.secao-container .div-1-3{
+    margin: 10px;
+    width: 30%;
+    height: 200px;
+}
+
+.secao-container .div-2-3{
+    margin: 10px;
+    width: 70%;
+    height: 200px;
+}
+
+.div-3-3{
+    height: 200px;
+    margin: 10px;
+    background-color: grey;
+    color: white;
+}
+
+.plans{
+    background-color: #f2f6f4; 
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.grwoth-plans{
+    position: relative;
+    width: 400px;
+    top: 80px;
+}
+
+.plans-cx{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.plans-fx{
+    background-color: #0a55e9;
+    height: 70px;
+    padding: 5px 15px;
+}
+
+.plans-fx h2{
+    font-size: 18px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.plans-fx h4{
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.align-p p{
+    position: absolute;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.plans-whith{
+    width: 20%;
+    margin: 0 10px;
+    background-color: #4a9cff;
+    color: white;
+}
+
+.plans-1-6{
+    height: 120px;
+}
+
+.plans-2-6{
+    height: 150px;
+}
+
+.plans-3-6{
+    height: 180px;
+}
+
+.plans-4-6{
+    height: 210px;
+}
+
+.plans-5-6{
+    height: 240px;
+}
+
+.plans-6-6{
+    height: 270px;
+}
+
+.text-plans{
+    display: flex;
+}
+.cx-p{
+    width: 20%;
+    position: relative;
+    font-size: 10px;
+    top: -40px;
+    margin: 0 10px;
+}
+
+@media (max-width: 800px){
+    .container h2{
+        font-size: 30px;
+    }
+
+    .plans-fx h2{
+        font-size: 18px;
+    }
+
+    .plans-fx h4{
+        font-size: 10px;
+    }
+
+    .plans-whith{
+        width: 20%;
+        margin: 0 5px;
+    }
+
+    .cx-p{
+        margin: 0 5px;
+    }
+}
